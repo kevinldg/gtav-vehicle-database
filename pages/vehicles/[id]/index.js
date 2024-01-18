@@ -60,12 +60,9 @@ export default function DetailsPage() {
     );
   }
 
-  let vehicle;
-  if (error) {
-    vehicle = vehicles.find((vehicle) => vehicle.Hash == router.query.id);
-  } else {
-    vehicle = data.find((vehicle) => vehicle.Hash == router.query.id);
-  }
+  const vehicle = (error ? vehicles : data).find(
+    (vehicle) => vehicle.Hash == router.query.id
+  );
 
   function vehicleImage() {
     const liveUrl =
@@ -85,8 +82,6 @@ export default function DetailsPage() {
     <StyledMain>
       <ImageContainer>
         <Image
-          // vehicle.DisplayName.Name
-          // "/vehicle-images/" + vehicle.DisplayName.Name + ".png"
           src={vehicleImage()}
           alt="No vehicle image available"
           width={400}
