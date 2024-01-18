@@ -8,7 +8,7 @@ Database / Wiki for all vehicles in Grand Theft Auto V (with images)
 
 - Overview list for all vehicles
 - Details page for every vehicle
-- API end point for fetching the whole vehicle data
+- API endpoint for fetching vehicle data (removed due a bug until fixed)
 
 ### Upcoming features
 
