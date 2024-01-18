@@ -1,40 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![](https://images.launchbox-app.com/cb846897-4312-4625-8c09-5d42bcc81274.png)
 
-## Getting Started
+# GTA V Vehicle Database
 
-First, run the development server:
+Database / Wiki for all vehicles in Grand Theft Auto V (with images)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Overview list for all vehicles
+- Details page for every vehicle
+- API end point for fetching the whole vehicle data
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Upcoming features
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Specific API Fetching for details from a vehicle
+- Specific API Fetching for vehicle images
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Known issues
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Error handling is not fully developed
+- Pictures does not exist for every vehicle
 
-## Learn More
+## Used techs
 
-To learn more about Next.js, take a look at the following resources:
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Other used techs: useSWR, uuid
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Credits
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+| What has been used | Source |
+| -------------- | -------------------------------------------- |
+| Vehicle data   | https://github.com/DurtyFree/gta-v-data-dumps |
+| Vehicle images | https://github.com/MericcaN41/gta5carimages |
+| Icons | https://fontawesome.com |
+| README.md Banner | Unknown, found in google images |
