@@ -1,4 +1,4 @@
-import vehicles from "../../data/vehicles.json";
+import vehicles from "../../../data/vehicles.json";
 
 export default function Handler(request, response) {
   if (request.method === "GET") {
@@ -12,7 +12,7 @@ export default function Handler(request, response) {
     }
   }
 
-  response.status(405).json({
+  return response.status(405).json({
     message: "Method not allowed",
   });
 }
