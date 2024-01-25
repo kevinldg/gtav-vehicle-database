@@ -8,12 +8,16 @@ Database / Wiki for all vehicles in Grand Theft Auto V (with images)
 
 - Overview list for all vehicles
 - Details page for every vehicle
-- API endpoint for fetching vehicle data (removed due a bug until fixed)
+
+### API
+  
+- API endpoint for fetching vehicle data: https://gtav-vehicle-database.vercel.app/api/vehicles
+- API endpoint for fetching specific vehicle data: https://gtav-vehicle-database.vercel.app/api/vehicles/3078201489 (Hash from vehicle)
 
 ### Upcoming features
 
-- Specific API Fetching for details from a vehicle
-- Specific API Fetching for vehicle images
+- API endpoint for fetching vehicle images
+- API endpoint for fetching specific vehicle image
 
 ## Known issues
 
