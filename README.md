@@ -33,7 +33,7 @@ Database / Wiki for all vehicles in Grand Theft Auto V (with images)
 ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-Other used techs: useSWR, uuid, Font Awesome
+Other used techs: useSWR, uuid
 
 ## Credits
 
